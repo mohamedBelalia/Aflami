@@ -60,6 +60,7 @@
     .movies-text h2{
         width: 500px;
         font-size: 25px;
+        color: red ;
     }
 }
 @media (max-width: 490px ){
