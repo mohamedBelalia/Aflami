@@ -59,13 +59,12 @@
 @media (max-width: 790px ){
     .movies-text h2{
         width: 500px;
-        font-size: 25px;
-        color: red ;
     }
 }
 @media (max-width: 490px ){
     .movies-text h2{
         width: 400px;
+        font-size: 25px;
     }
 }
 
