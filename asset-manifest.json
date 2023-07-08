@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Aflami/static/css/main.e33d4303.css",
+    "main.js": "/Aflami/static/js/main.48aa2411.js",
+    "static/media/bg.jpg": "/Aflami/static/media/bg.8f167ebdfd4702c7b3a6.jpg",
+    "static/media/noImage.png": "/Aflami/static/media/noImage.3f73d8dcb0d9471a11cd.png",
+    "static/media/logo.png": "/Aflami/static/media/logo.e335f2721241af85ad6e.png",
+    "static/media/github.png": "/Aflami/static/media/github.b5317cd8f12656cf29d0.png",
+    "index.html": "/Aflami/index.html",
+    "main.e33d4303.css.map": "/Aflami/static/css/main.e33d4303.css.map",
+    "main.48aa2411.js.map": "/Aflami/static/js/main.48aa2411.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e33d4303.css",
+    "static/js/main.48aa2411.js"
+  ]
+}
