@@ -11,6 +11,7 @@ import Login from './components/login/Login';
 import Signup from './components/signup/Signup';
 import { AuthConextProvider } from './config/AuthUserContext';
 import WatchList from './pages/watchList/WatchList';
+import Undefinde from './components/page404/Undefinde';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path='/Login' element={<Login/>}/>
           <Route path='/Signup' element={<Signup/>}/>
           <Route path='/WatchList' element={<WatchList/>}/>
+          <Route path='*' element={<Undefinde/>}/>
         </Routes>
       </Router>
       </MoviesProvider>
