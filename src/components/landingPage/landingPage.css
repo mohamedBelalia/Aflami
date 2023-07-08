@@ -1,0 +1,106 @@
+:root{
+    --colorOne : #D10A27;
+    --colorTwo : #1e1e1e ;
+    --colorThree : #090909 ;
+    --colorFour : #ffff ; 
+}
+.landing-page{
+    margin-top: -80px;
+    height: 100vh;
+    width: 100%;
+    
+}
+.landing-bg{
+    height: 100%;
+    width: 100%;
+}
+.landing-bg img{
+    height: 100%;
+    width: 100%;
+}
+.landing-text{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.664);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+@media (max-width: 798px ){
+    .landing-page{
+        height: 70vh;
+    }
+}
+
+.landing-text{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 50px;
+}
+.landing-text div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 35%;
+}
+
+.landing-text div h1{
+    font-size: 60px;
+}
+.landing-text div p{
+    font-size: 19px;
+}
+.landing-text div span{
+    color: #ffffffb8;
+}
+.landing-text div button{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    color: var(--colorFour);
+    font-size: 22px;
+    background-color: var(--colorOne);
+    margin-top: 20px;
+    box-shadow: #e9dad8 4px 4px 0px ;
+    transition: transform 200ms , box-shadow 200ms;
+}
+.landing-text div button:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow:#8b9598 0px 0px 0px ;
+}
+
+@media (max-width: 798px ){
+    .landing-bg img{
+        object-fit: cover;
+    }
+    .landing-text{
+        height: 70vh;
+        padding-left: 0px;
+        background-color: rgba(0, 0, 0, 0.77);
+    }
+    .landing-text div{
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .landing-text div h1{
+        font-size: 40px;
+    }
+    .landing-text div p{
+        display: none;
+    }
+    .landing-text div button{
+        margin-left: auto;
+        margin-right: auto;
+        width: 160px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,142 @@
+:root{
+    --colorOne : #D10A27;
+    --colorTwo : #1e1e1e ;
+    --colorThree : #090909 ;
+    --colorFour : #ffff ; 
+}
+
+.navbar{
+    height: 80px;
+    z-index: 100;
+    color: var(--colorFour);
+    position: absolute;
+}
+.navbar h1{
+    color: var(--colorOne);
+}
+.nav-content{
+    height: 100%;
+    width: 100%;
+}
+.links {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.coneect-btns{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: -14px;
+  
+}
+.coneect-btns div{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.coneect-btns button{
+    border: none;
+    border-bottom: solid 2px wheat;
+    height: 40px;
+    font-size: 19px;
+}
+.coneect-btns button:first-child{
+    background-color: transparent;
+    color: var(--colorFour);
+}
+.coneect-btns button:last-child{
+    background-color: transparent;
+    color: var(--colorFour);
+}
+
+ ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ul li{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid transparent 1px;
+    border-radius: 10px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ul li.active{
+    background-color: var(--colorOne);
+    color: var(--colorFour);
+    transition: all 0.6s ease-in-out;
+}
+
+@media (max-width: 798px ){
+    .links{
+        display: none;
+    }
+
+    .modal-backdrop {
+        display: none;
+    }
+    .phone-btn{
+        width: 40px;
+        height: 5px;
+        background-color: var(--colorFour);
+        margin-bottom: 5px;
+        display: block;
+    }
+    .butt{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .cancel-btn{
+        width: 50px;
+        border: none;
+        background-color: transparent;
+        color: var(--colorFour);
+        font-size: 28px;
+    }
+    
+    ul{
+        display: block;
+    }
+    .my-footer{
+        height: 80px;
+        border-radius: 0 0 10px 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .phone-contact-btns{
+        display: flex;
+        justify-content: space-around;
+    }
+    .modal-body,.butt,.my-footer{
+        background-color: var(--colorTwo);
+        color: var(--colorFour);
+    }
+    .phone-contact-btns button{
+        border: none;
+        border-bottom: solid 2px wheat;
+        height: 40px;
+        font-size: 19px;
+    }
+    .phone-contact-btns button:first-child{
+        background-color: transparent;
+        color: var(--colorFour);
+    }
+    .phone-contact-btns button:last-child{
+        background-color: transparent;
+        color: var(--colorFour);
+    }
+
+}
+

@@ -1,0 +1,104 @@
+:root{
+    --colorOne : #D10A27;
+    --colorTwo : #1e1e1e ;
+    --colorThree : #090909 ;
+    --colorFour : #ffff ; 
+}
+
+.login{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+.background-login{
+    width: 100%;
+    height: 100%;
+}
+.background-login img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-login{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000000d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-login form{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.text-login form div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 500px;
+}
+
+.text-login form div input{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    outline: none;
+    border: solid var(--colorFour) 3px;
+    background-color: var(--colorTwo);
+    color: var(--colorFour);
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.text-login form div label{
+    font-size: 25px;
+}
+.text-login form button{
+    width: 200px;
+    height: 40px;
+    background-color: var(--colorOne);
+    color: var(--colorFour);
+    font-size: 20px;
+    border: solid var(--colorFour) 2px;
+    border-radius: 10px;
+    box-shadow: #e9dad8 4px 4px 0px ;
+    transition: transform 200ms , box-shadow 200ms;
+}
+
+.text-login form button:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow:#8b9598 0px 0px 0px ;
+}
+
+.text-below p{
+    color: rgba(255, 255, 255, 0.72);
+}
+.text-below span{
+    color: white;
+    cursor: pointer;
+}
+.error-msg{
+    width: 80%;
+    padding: 15px;
+    background-color: var(--colorOne);
+    color: var(--colorFour);
+    text-align: center;
+    border-radius: 10px;
+}
+
+@media (max-width: 770px ){
+    .text-login form{
+        width: 90%;
+    }
+    .text-login form div{
+        width: 100%;
+    }
+}

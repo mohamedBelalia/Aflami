@@ -1,0 +1,96 @@
+:root{
+    --colorOne : #D10A27;
+    --colorTwo : #1e1e1e ;
+    --colorThree : #090909 ;
+    --colorFour : #ffff ; 
+}
+
+.signup{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+.background-signup{
+    width: 100%;
+    height: 100%;
+}
+.background-signup img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-signup{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000000d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-signup form{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.text-signup form div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 500px;
+}
+
+.text-signup form div input{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    outline: none;
+    border: solid var(--colorFour) 3px;
+    background-color: var(--colorTwo);
+    color: var(--colorFour);
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.text-signup form div label{
+    font-size: 25px;
+}
+.text-signup form button{
+    width: 200px;
+    height: 40px;
+    background-color: var(--colorOne);
+    color: var(--colorFour);
+    font-size: 20px;
+    border: solid var(--colorFour) 2px;
+    border-radius: 10px;
+    box-shadow: #e9dad8 4px 4px 0px ;
+    transition: transform 200ms , box-shadow 200ms;
+}
+
+.text-signup form button:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow:#8b9598 0px 0px 0px ;
+}
+
+.text-below p{
+    color: rgba(255, 255, 255, 0.72);
+}
+.text-below span{
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 770px ){
+    .text-signup form{
+        width: 90%;
+    }
+    .text-signup form div{
+        width: 100%;
+    }
+}

@@ -1,0 +1,33 @@
+:root{
+    --colorOne : #D10A27;
+    --colorTwo : #1e1e1e ;
+    --colorThree : #090909 ;
+    --colorFour : #ffff ; 
+}
+.actor{
+    width: 250px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.actor img{
+    height: 75%;
+    width: 80%;
+    border-radius: 10px;
+}
+.actor div{
+    text-align: center;
+    padding-top: 10px;
+    height: 20%;
+}
+.rec-arrow{
+    background-color: var(--colorFour);
+}
+.actor div h3{
+    font-size: 16px;
+}
+.actor div p{
+    color: rgba(255, 255, 255, 0.742);
+}

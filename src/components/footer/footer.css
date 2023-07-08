@@ -1,0 +1,59 @@
+:root{
+    --colorOne : #D10A27;
+    --colorTwo : #1e1e1e ;
+    --colorThree : #090909 ;
+    --colorFour : #ffff ; 
+}
+
+.footer{
+    background-color: var(--colorTwo);
+    height: 400px;
+    color: var(--colorFour);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.website-name .logo img{
+    width: 70px;
+}
+.footer .contacts .icons{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .contacts .icons img{
+    width: 55px;
+    cursor:pointer;
+}
+
+.footer-links p{
+    font-size:20px;
+    cursor: pointer;
+}
+
+@media (max-width: 798px ){
+    .footer{
+        height: 100vh;
+    }
+    .website-name{
+        text-align: center;
+    }
+    .website-name img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-links{
+        padding-top: 30px;
+        text-align: center;
+    }
+    .footer .contacts{
+        padding-top: 30px;
+        text-align: center;
+    }
+    .footer .contacts .icons {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

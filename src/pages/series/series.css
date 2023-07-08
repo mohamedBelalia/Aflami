@@ -1,0 +1,132 @@
+:root{
+    --colorOne : #D10A27;
+    --colorTwo : #1e1e1e ;
+    --colorThree : #090909 ;
+    --colorFour : #ffff ; 
+}
+.movies-page{
+    margin-top: -80px;
+}
+.movies-bg{
+    height: 90vh;
+}
+.movies-bg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.movies-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.779);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--colorFour);
+}
+.movies-text h2{
+    font-size: 60px;
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.movies-text div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.movies-text button{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--colorOne);
+    color: var(--colorFour);
+    margin-top: 50px;
+    box-shadow: #e9dad8 4px 4px 0px ;
+    transition: transform 200ms , box-shadow 200ms;
+}
+.movies-text button:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow:#8b9598 0px 0px 0px ;
+}
+
+@media (max-width: 1000px ){
+    .movies-text h2{
+        width: 700px;
+    }
+}
+
+@media (max-width: 790px ){
+    .movies-text h2{
+        width: 500px;
+        font-size: 40px;
+    }
+}
+@media (max-width: 490px ){
+    .movies-text h2{
+        width: 400px;
+    }
+}
+
+.movies-list{
+    background-color: var(--colorThree);
+    padding-top: 40px;
+    padding-bottom:50px ;
+}
+
+.movies-list .container .row{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.movies-list h1{
+    color: var(--colorFour);
+    text-align: center;
+}
+
+@media (max-width: 1900px ){
+    .moviespage-cards{
+        width: 85%;
+    }
+}
+@media (max-width: 1400px ){
+    .moviespage-cards{
+        width: 100%;
+    }
+}
+
+.btns-pages{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btns-pages button{
+    width: 100px;
+    height: 35px;
+    border: solid 0px transparent;
+    border-radius: 15px;
+    background-color: var(--colorFour);
+    color: var(--colorThree);
+}
+.btns-pages div{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background-color: rgb(123, 123, 123);
+    color: var(--colorFour);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
