@@ -3,8 +3,35 @@
     top: 0;
     left: 0;
     height: 100vh;
-    width: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1e1e1e;
+    color: white;
+}
+.undefinde div{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.undefinde div button{
+    width: 200px;
+    height: 50px;
+    background-color: #D10A27;
+    color: white;
+    border: solid white 1px;
+    border-radius:10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: #e9dad8 4px 4px 0px ;
+    transition: transform 200ms , box-shadow 200ms;
+}
+.undefinde div button:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow:#8b9598 0px 0px 0px ;
 }

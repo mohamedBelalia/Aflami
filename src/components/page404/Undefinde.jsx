@@ -6,8 +6,10 @@ const Undefinde = () => {
     const navigate = useNavigate()
   return (
     <div className='undefinde'>
-        <h1>404 Page Undefinde</h1>
-        <button onClick={()=>navigate('/')}>Back To Home</button>
+        <div>
+          <h1>404 Page Undefinde</h1>
+          <button onClick={()=>navigate('/')}>Back To Home</button>
+        </div>
     </div>
   )
 }
