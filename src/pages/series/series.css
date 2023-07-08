@@ -72,6 +72,7 @@
 @media (max-width: 490px ){
     .movies-text h2{
         width: 400px;
+        font-size: 25px;
     }
 }
 
