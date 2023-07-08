@@ -47,7 +47,7 @@ const search = () => {
         </div>
         <div className='movies-text'>
             <div className='container'>
-                <h2>Thousands of Movies of All Geners From All Over The World</h2>
+                <h2>Thousands of Movies of All Geners From All Over The World</h2> 
                 <button onClick={search}>Search</button> 
             </div>
         </div>
